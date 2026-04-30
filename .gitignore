@@ -1,0 +1,68 @@
+# Virtual environments
+RHD_detection/
+venv/
+env/
+Lib/
+Scripts/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large Data Files
+*.csv
+final_training_dataset.csv
+preprocessed_dataset.csv
+unified_murmur_dataset.csv
+unified_murmur_dataset_converted.csv
+
+# Large Binary Files
+*.keras
+*.h5
+*.pkl
+*.pickle
+model/
+
+# Audio and Spectrogram Files
+processed_audio/
+spectrograms/
+*.wav
+*.mp3
+*.npy
+
+# Training Data
+2016/
+2022/
+
+# Images (if large)
+*.png
+*.jpg
+*.jpeg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+__pycache__/
+
+# Python Cache
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
